@@ -6,7 +6,7 @@ import { auth } from "../firebase";
 const Login = () => {
   return (
     <div id="login-page">
-      <h1 id="login-title">Login</h1>
+      {/* <h1 id="login-title">Login</h1> */}
       <div id="login-card">
         <div
           className="login-button google"
