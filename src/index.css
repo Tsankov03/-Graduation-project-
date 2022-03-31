@@ -98,14 +98,18 @@
   display: inline-block;
   margin-bottom: 10px;
 }
-/*
+
  .facebook {
   background-color: #3b5998;
 } 
-*/
+
 
 .google {
   background-color: #c151ee;
+  color: white;
+}
+.email {
+  background-color: rgb(143, 238, 206);
   color: white;
 }
 
