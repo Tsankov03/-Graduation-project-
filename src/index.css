@@ -55,40 +55,61 @@
 /* Login Page */
 
 #login-page {
-  background-image: linear-gradient(#5d40ff33, #8d09d9);
+  background-image: linear-gradient(#00000033, #303030);
   position: absolute;
   top: 0px;
   bottom: 0px;
   left: 0px;
   right: 0px;
-}
 
+}
+#login-title {
+  margin-bottom: 10px;
+  margin-block: revert;
+  color: #fff;
+  position: fixed;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -25%);
+}
 #login-card {
-  position: relative;
-  top: calc(50vh - 144px);
-  left: calc(50vw - 210px);
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   padding-top: 36px;
-  padding-bottom: 66px;
-  width: 420px;
+  padding-bottom: 36px;
+  width: 40vw;
   text-align: center;
-  background-color: white;
+  background-color: rgb(228, 224, 224);
   border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .login-button {
+  width: 70%;
   cursor: pointer;
   color: white;
   padding: 12px;
   border-radius: 8px;
   display: inline-block;
+  margin-bottom: 10px;
 }
 
-/* .facebook {
+ .facebook {
   background-color: #3b5998;
-} */
+} 
+
 
 .google {
-  background-color: #c242f4;
+  background-color: #c151ee;
+  color: white;
+}
+.email {
+  background-color: rgb(143, 238, 206);
   color: white;
 }
 
@@ -135,5 +156,5 @@
 .middle-container {
   margin-top: 50px;
   margin-bottom: 50px;
-  font-size: larger;
+  font-size: large;
 }
